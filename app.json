@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Tabletop Calendar",
+    "slug": "tabletop-calendar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tabletopcalendar",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tabletopcalendar.app"
+    },
+    "android": {
+      "package": "com.tabletopcalendar.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
